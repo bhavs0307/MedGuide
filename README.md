@@ -6,7 +6,7 @@ A Medicine Intake Reminder and Monitor App
 
 This project is an innovative smartphone application aimed at enhancing outpatient medication management. It helps users stay on track with their prescriptions through timely reminders, visual identification of medicines, and detailed dosage instructions. Integrated with traditional pillbox use, this app bridges technology and healthcare for a safer, more efficient patient experience.
 
-Features
+<b>Features</b>
 
 Timely Medicine Reminders
 Customizable alerts to ensure patients take medicines at the correct time, minimizing missed or delayed doses.
@@ -28,7 +28,7 @@ Notifications with medicine images to help users distinguish between different p
 Doorstep Delivery
 In-app medicine refill requests with home delivery support — ideal for users with mobility issues, tight schedules, or remote locations.
 
-Benefits
+<b>Benefits</b>
 
 Reduces medication errors
 
@@ -38,7 +38,7 @@ Enhances safety through education
 
 Offers convenience and accessibility
 
-Future Enhancements
+<b>Future Enhancements</b>
 
 User health data analytics
 
