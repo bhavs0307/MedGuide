@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <style name="ButtonStyle2">
+        <item name="android:textColor">@color/dark_green</item> <!-- Button text color -->
+        <item name="android:background">@color/pastel_blue_neutral_dark</item> <!-- Button background -->
+        <item name="android:padding">12dp</item> <!-- Padding inside the button -->
+        <item name="android:textSize">16sp</item> <!-- Button text size -->
+    </style>
+    <style name="ButtonStyle3">
+        <item name="android:textColor">@color/black</item> <!-- Button text color -->
+        <item name="android:background">@color/pastel_blue_accent_light</item> <!-- Button background -->
+        <item name="android:padding">12dp</item> <!-- Padding inside the button -->
+        <item name="android:textSize">16sp</item> <!-- Button text size -->
+    </style><style name="ButtonStyle1">
+        <item name="android:textColor">@color/white</item> <!-- Button text color -->
+        <item name="android:background">@color/redshade</item> <!-- Button background -->
+        <item name="android:padding">12dp</item> <!-- Padding inside the button -->
+        <item name="android:textSize">16sp</item> <!-- Button text size -->
+    </style>
+    <style name="ButtonStyle4">
+        <item name="android:textColor">@color/white</item> <!-- Button text color -->
+        <item name="android:background">@color/pastel_blue_medium</item> <!-- Button background -->
+        <item name="android:padding">12dp</item> <!-- Padding inside the button -->
+        <item name="android:textSize">16sp</item> <!-- Button text size -->
+    </style>
+    <style name="Buttonmain">
+        <item name="android:textColor">@color/white</item> <!-- Button text color -->
+        <item name="android:background">#7A48484B</item> <!-- Button background -->
+        <item name="android:padding">12dp</item> <!-- Padding inside the button -->
+        <item name="android:textSize">16sp</item> <!-- Button text size -->
+    </style>
+</resources>

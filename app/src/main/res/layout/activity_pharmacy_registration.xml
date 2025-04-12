@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.PharmacyRegistration"
+    android:background="@drawable/m5"
+    android:layout_margin="0dp"
+    android:gravity="center">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.5" />
+
+    <EditText
+        android:id="@+id/regpharmacyname"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:hint="Enter Name"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:inputType="text"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter User Name"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:id="@+id/regpharmacyusername"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColor="@color/black"
+        android:hint="Enter password"
+        android:textColorHint="@color/black"
+        android:id="@+id/regpharmacypassword"/>
+
+    <EditText
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColor="@color/black"
+        android:hint="Retype Password"
+        android:textColorHint="@color/black"
+        android:id="@+id/regpharmacyconformpassword"/>
+
+    <EditText
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColor="@color/black"
+        android:hint="Enter Email"
+        android:textColorHint="@color/black"
+        android:id="@+id/regpharmacyemail"/>
+
+    <EditText
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Mobile"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:id="@+id/regpharmacymobile"/>
+
+    <EditText
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Address"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:id="@+id/regpharmacyaddress"/>
+
+    <Button
+        android:id="@+id/regpharmacysubmit"
+        style="@style/ButtonStyle4"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="32dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="0.5" />
+
+</LinearLayout>

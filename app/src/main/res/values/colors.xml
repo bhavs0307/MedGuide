@@ -1,0 +1,38 @@
+<resources>
+    <!-- General Colors -->
+    <color name="black">#FF000000</color>
+    <color name="green">#00FF00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="smoky">#E0E0E0</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dark_green">#006400</color>
+    <color name="pastel_blue_light">#D0E7FF</color>
+    <color name="pastel_blue">#A6D8FF</color>
+    <color name="redshade">#E26C90</color>
+    <color name="pastel_blue_dark">#4BAEFF</color>
+    <color name="pastel_blue_deep">#238CFF</color>
+    <color name="pastel_blue_medium">#7A213EFF</color>
+
+    <!-- Accent Colors -->
+    <color name="pastel_blue_accent_light">#C4E4FF</color>
+    <color name="pastel_blue_accent">#8DCFFF</color>
+    <color name="pastel_blue_accent_dark">#57B5FF</color>
+    <color name="mustard">#CC943F</color>
+
+    <!-- Neutral Colors -->
+    <color name="pastel_blue_neutral_light">#F0F8FF</color> <!-- Alice Blue -->
+    <color name="pastel_blue_neutral">#DCEFFF</color>
+    <color name="pastel_blue_neutral_dark">#A9D1FF</color>
+
+    <!-- Text and Borders -->
+    <color name="pastel_blue_text">#5A9CFF</color>
+    <color name="pastel_blue_border">#C9E3FF</color>
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#000000</color> <!-- Black text for general use -->
+    <color name="textColorSecondary">#555555</color> <!-- Secondary text color -->
+
+    <!-- Button Colors -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- White text for buttons -->
+    <color name="buttonBackgroundColor">#006400</color> <!-- Dark Green background for buttons -->
+</resources>

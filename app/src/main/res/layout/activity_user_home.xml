@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/m3"
+    tools:context=".view.UserHome">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/addMedicine"
+            style="@style/ButtonStyle"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Add Reminders"
+            android:textSize="23dp" />
+
+        <Button
+            android:id="@+id/viewMedicine"
+            style="@style/ButtonStyle"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="View Reminders"
+            android:textSize="23dp" />
+
+        <Button
+            android:id="@+id/usersearchdrugs"
+            style="@style/ButtonStyle"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Search Medicine"
+            android:textSize="23dp" />
+
+        <Button
+            android:id="@+id/usersvieworders"
+            style="@style/ButtonStyle"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:text="View Orders"
+            android:textSize="23dp" />
+
+        <Button
+            android:id="@+id/userlogout"
+            style="@style/ButtonStyle"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:text="Logout"
+            android:textSize="23dp" />
+
+    </LinearLayout>
+
+</ScrollView>

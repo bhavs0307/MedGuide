@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/m1"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"
+        tools:context=".view.ViewNotification">
+
+        <TextView
+            android:textSize="23dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_height="wrap_content"
+            android:id="@+id/medicineviewname1"/>
+
+        <TextView
+            android:textSize="23dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:textColor="@color/green"
+            android:textColorHint="@color/black"
+            android:layout_height="wrap_content"
+            android:id="@+id/medicineviewusage1"/>
+
+        <ImageView
+            android:id="@+id/medicineviewimage1"
+            android:layout_width="fill_parent"
+            android:layout_height="500dp"/>
+
+        <Button
+            android:id="@+id/stopalarm"
+            android:layout_margin="10dp"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop Alarm"/>
+
+    </LinearLayout>
+
+</ScrollView>

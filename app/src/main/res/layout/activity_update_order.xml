@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.UpdateOrder"
+    android:background="@drawable/s3"
+    android:layout_margin="10dp"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/updateOrderStatus"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:hint="Enter Status"/>
+
+        <Button
+            android:id="@+id/updateOrderSubmit"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style ="@style/ButtonStyle4"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:text="Update Status"
+            android:textSize="32dp" />
+
+        <Button
+            android:id="@+id/updateOrderCancel"
+            style="@style/ButtonStyle4"
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Back"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>

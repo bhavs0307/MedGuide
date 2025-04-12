@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/s5"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent"
+        tools:context=".view.ViewPharmacy">
+        <!-- Top Space -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:textSize="23dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/pharmacyviewname"/>
+
+        <TextView
+            android:textSize="23dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/pharmacyviewmobile"/>
+
+        <TextView
+            android:textSize="23dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:id="@+id/pharmacyviewemail"/>
+
+        <TextView
+            android:textSize="23dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:id="@+id/pharmacyviewaddress"/>
+
+        <TextView
+            android:textSize="23dp"
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/pharmacyviewstatus"/>
+
+        <Button
+            android:id="@+id/pharmacyviewupdatestatus"
+            style="@style/ButtonStyle3"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="12dp"
+            android:text="Update Pharmacy Status" />
+
+        <Button
+            android:id="@+id/pharmacyviewback"
+            style="@style/ButtonStyle3"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="Back" />
+
+
+        <Button
+            android:id="@+id/pharmacyviewdelete"
+            style="@style/ButtonStyle3"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="Delete Pharmacy" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+</ScrollView>

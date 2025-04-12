@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/medicines"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        tools:context=".view.PharmacyHome">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="0.5" />
+
+
+        <Button
+            android:id="@+id/pharmacyadddrug"
+            style="@style/Buttonstyle5"
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Add Medicine"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/pharmacyviewdrugs"
+            style="@style/Buttonstyle5"
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="View Medicines"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/pharmacyvieworders"
+            style="@style/Buttonstyle5"
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="View Orders"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/pharmacylogout"
+            style="@style/Buttonstyle5"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Logout"
+            android:textAlignment="center"
+             />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</ScrollView>
